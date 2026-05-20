@@ -1,0 +1,228 @@
+{
+  "model_name": "crnn_small",
+  "feature_type": "logmel",
+  "rnn_type": "lstm",
+  "bidirectional": true,
+  "best_val_loss": 1.0642534072200458,
+  "best_val_acc": 0.6519607843137255,
+  "test_loss": 0.8345271399513937,
+  "test_acc": 0.7096774193548387,
+  "avg_epoch_time_sec": 108.63684800000001,
+  "total_params": 150250,
+  "trainable_params": 150250,
+  "class_names": [
+    "air_conditioner",
+    "car_horn",
+    "children_playing",
+    "dog_bark",
+    "drilling",
+    "engine_idling",
+    "gun_shot",
+    "jackhammer",
+    "siren",
+    "street_music"
+  ],
+  "feature_shape": [
+    1,
+    64,
+    126
+  ],
+  "classification_report": {
+    "air_conditioner": {
+      "precision": 0.8571428571428571,
+      "recall": 0.78,
+      "f1-score": 0.8167539267015707,
+      "support": 100.0
+    },
+    "car_horn": {
+      "precision": 0.76,
+      "recall": 0.5757575757575758,
+      "f1-score": 0.6551724137931034,
+      "support": 33.0
+    },
+    "children_playing": {
+      "precision": 0.5095541401273885,
+      "recall": 0.8,
+      "f1-score": 0.622568093385214,
+      "support": 100.0
+    },
+    "dog_bark": {
+      "precision": 0.788235294117647,
+      "recall": 0.67,
+      "f1-score": 0.7243243243243244,
+      "support": 100.0
+    },
+    "drilling": {
+      "precision": 0.7625,
+      "recall": 0.61,
+      "f1-score": 0.6777777777777778,
+      "support": 100.0
+    },
+    "engine_idling": {
+      "precision": 0.7922077922077922,
+      "recall": 0.6559139784946236,
+      "f1-score": 0.7176470588235294,
+      "support": 93.0
+    },
+    "gun_shot": {
+      "precision": 0.8421052631578947,
+      "recall": 1.0,
+      "f1-score": 0.9142857142857143,
+      "support": 32.0
+    },
+    "jackhammer": {
+      "precision": 0.6742424242424242,
+      "recall": 0.9270833333333334,
+      "f1-score": 0.7807017543859649,
+      "support": 96.0
+    },
+    "siren": {
+      "precision": 0.5846153846153846,
+      "recall": 0.4578313253012048,
+      "f1-score": 0.5135135135135135,
+      "support": 83.0
+    },
+    "street_music": {
+      "precision": 0.7931034482758621,
+      "recall": 0.69,
+      "f1-score": 0.7379679144385026,
+      "support": 100.0
+    },
+    "accuracy": 0.7096774193548387,
+    "macro avg": {
+      "precision": 0.7363706603887251,
+      "recall": 0.7166586212886739,
+      "f1-score": 0.7160712491429215,
+      "support": 837.0
+    },
+    "weighted avg": {
+      "precision": 0.7288012147109945,
+      "recall": 0.7096774193548387,
+      "f1-score": 0.7086346507626244,
+      "support": 837.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      78,
+      0,
+      12,
+      1,
+      0,
+      7,
+      0,
+      2,
+      0,
+      0
+    ],
+    [
+      2,
+      19,
+      0,
+      0,
+      1,
+      0,
+      0,
+      4,
+      0,
+      7
+    ],
+    [
+      0,
+      0,
+      80,
+      11,
+      4,
+      0,
+      1,
+      0,
+      2,
+      2
+    ],
+    [
+      0,
+      2,
+      14,
+      67,
+      6,
+      0,
+      3,
+      2,
+      2,
+      4
+    ],
+    [
+      1,
+      0,
+      3,
+      4,
+      61,
+      6,
+      2,
+      13,
+      9,
+      1
+    ],
+    [
+      10,
+      0,
+      1,
+      0,
+      0,
+      61,
+      0,
+      19,
+      0,
+      2
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      32,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      6,
+      1,
+      0,
+      89,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      35,
+      2,
+      1,
+      2,
+      0,
+      3,
+      38,
+      2
+    ],
+    [
+      0,
+      4,
+      12,
+      0,
+      1,
+      0,
+      0,
+      0,
+      14,
+      69
+    ]
+  ],
+  "resolved_data_dir": "C:\\Code\\Deep Learning\\csc4005-lab4-TrieuQuocAnh\\UrbanSound8K"
+}
